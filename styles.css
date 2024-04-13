@@ -1,0 +1,44 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#root {
+  overflow-wrap: break-word;
+}
+
+.container {
+  position: relative;
+  background: white;
+  padding: 90px;
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  justify-content: center;
+  margin: auto;
+}
+
+#introduction,
+#redesign,
+.lo-fi,
+.hi-fi,
+.style-guide,
+#conclusion {
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+#redesign h3 {
+  text-align: center;
+}
+
+p {
+  font-size: 15px;
+}
